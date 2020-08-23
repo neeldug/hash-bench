@@ -18,29 +18,29 @@ criterion = "0.3.3"
 [target.x86_64-unknown-linux-gnu.dev-dependencies]
 jemallocator = "0.3.2"
 
-#[[bench]]
-#name = "construction-a"
-#harness = false
+[[bench]]
+name = "construction-a"
+harness = false
 
-#[[bench]]
-#name = "construction-b"
-#harness = false
+[[bench]]
+name = "construction-b"
+harness = false
 
-#[[bench]]
-#name = "insert-erase-a"
-#harness = false
+[[bench]]
+name = "insert-erase-a"
+harness = false
 
-#[[bench]]
-#name = "insert-erase-b"
-#harness = false
+[[bench]]
+name = "insert-erase-b"
+harness = false
 
-#[[bench]]
-#name = "insert-erase-c"
-#harness = false
+[[bench]]
+name = "insert-erase-c"
+harness = false
 
-#[[bench]]
-#name = "access-a"
-#harness = false
+[[bench]]
+name = "access-a"
+harness = false
 
 [[bench]]
 name = "access-b"
